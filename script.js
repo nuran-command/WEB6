@@ -5,7 +5,7 @@ alert("Hello, JavaScript World!");
 
 // Task 1
 let nameVar = "Nurdan";
-let age = 20;
+let age = 19;
 let isStudent = true;
 
 console.log("String:", nameVar);
@@ -20,7 +20,7 @@ console.log("Concatenated string:", "Hello " + nameVar + "!");
 
 // Task 2
 function changeText() {
-  document.getElementById("paragraph").textContent = "Paragraph text changed!";
+  document.getElementById("paragraph").textContent = "Paragraph text changed";
 }
 
 // Task 3
