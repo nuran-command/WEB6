@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Basics Assignment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 style="color:#b30000;">JavaScript Basics Assignment</h1>
+
+  <!-- Task 0 -->
+  <div class="container">
+    <h2>Task 0. First Script</h2>
+    <p>Check console for your name and group.</p>
+  </div>
+
+  <!-- Task 1 -->
+  <div class="container">
+    <h2>Task 1. Variables & Operators</h2>
+    <p>Open console to see variable and operator outputs.</p>
+  </div>
+
+  <!-- Task 2 -->
+  <div class="container">
+    <h2>Task 2. Changing Content</h2>
+    <p id="paragraph">Original paragraph text.</p>
+    <button onclick="changeText()">Change Text</button>
+  </div>
+
+  <!-- Task 3 -->
+  <div class="container">
+    <h2>Task 3. Changing Styles</h2>
+    <div id="colorBox" style="padding:10px;">This is a sample block.</div>
+    <button onclick="changeBackground()">Change Background</button>
+    <button onclick="changeFontSize()">Change Font Size</button>
+  </div>
+
+  <!-- Task 4 -->
+  <div class="container">
+    <h2>Task 4. Creating & Removing Elements</h2>
+    <ul id="itemList">
+      <li>Item 1</li>
+    </ul>
+    <button onclick="addItem()">Add Item</button>
+    <button onclick="removeItem()">Remove Item</button>
+  </div>
+
+  <!-- Task 5 -->
+  <div class="container">
+    <h2>Task 5. Mouse Events</h2>
+    <div class="box" id="hoverBox"></div>
+  </div>
+
+  <!-- Task 6 -->
+  <div class="container">
+    <h2>Task 6. Keyboard Events</h2>
+    <input type="text" id="inputField" placeholder="Type something..." />
+    <p>Current value: <span id="outputText"></span></p>
+  </div>
+
+  <!-- Task 7 -->
+  <div class="container">
+    <h2>Task 7. Form Validation (optional)</h2>
+    <form id="myForm">
+      <input type="text" id="name" placeholder="Name" /><br />
+      <input type="email" id="email" placeholder="Email" /><br />
+      <input type="password" id="password" placeholder="Password" /><br />
+      <button type="submit">Submit</button>
+    </form>
+    <p id="error" style="color:red;"></p>
+  </div>
+
+  <!-- Task 8 -->
+  <div class="container">
+    <h2>Task 8. To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Enter task..." />
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
